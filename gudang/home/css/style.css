@@ -29,7 +29,7 @@
 	img{max-width:100%;}
 /*-- //Reset-Code --*/
 body {
-	background:url('../images/1.jpg') no-repeat 0px 0px;
+	background:url('../images/5.jpg') no-repeat 0px 0px;
 	background-size: cover;
 	font-family: 'Open Sans', sans-serif;
 	background-attachment: fixed;
@@ -66,7 +66,7 @@ h1{
     padding: 15px 0px;
     margin: 0 auto;
     text-align: center;
-	background: #FFC107;
+	background: #1E90FF;
 }
 .resp-tab-item {
     font-size: 1.1em;
@@ -112,7 +112,7 @@ form {
 }
 h3 {
     font-size: 16px;
-    color:#FFC107;
+    color:#1E90FF;
     margin-bottom: 7px;
 }
 .from,.to,.date,.depart,.return{
@@ -280,7 +280,7 @@ input[type="checkbox"]{
 input[type="submit"] {
     font-size: 14px;
     color: #fff;
-    background:#ffc107;
+    background:#1E90FF;
     border: none;
     outline: none;
     padding: 10px 20px;

@@ -9,7 +9,7 @@
 <html>
 <head>
 	<title>Flight Ticket Booking a Flat Responsive Widget Template :: w3layouts</title>
-	<link rel="stylesheet" href="<?php echo base_url(); ?>css/style.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>gudang/home/css/style.css">
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -61,10 +61,10 @@
 							<div class="class">
 								<h3>Class</h3>
 								<select id="w3_country1" onchange="change_country(this.value)" class="frm-field required">
-									<option value="null">Economy</option>  
-									<option value="null">Premium Economy</option>   
-									<option value="null">Business</option>   
-									<option value="null">First class</option>   						
+									<option value="Economy">Economy</option>  
+									<option value="Premium Economy">Premium Economy</option>   
+									<option value="Business">Business</option>   
+									<option value="First class">First class</option>   						
 								</select>
 
 							</div>
@@ -258,8 +258,8 @@
 		<p class="agileinfo"> &copy; 2016 Flight Ticket Booking . All Rights Reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
 	</div>
 	<!--script for portfolio-->
-		<script src="../gudang/home/js/jquery.min.js"> </script>
-		<script src="../gudang/home/js/easyResponsiveTabs.js" type="text/javascript"></script>
+		<script src="<?php echo base_url(); ?>gudang/home/js/jquery.min.js"> </script>
+		<script src="<?php echo base_url(); ?>gudang/home/js/easyResponsiveTabs.js" type="text/javascript"></script>
 		<script type="text/javascript">
 			$(document).ready(function () {
 				$('#horizontalTab').easyResponsiveTabs({
@@ -271,8 +271,8 @@
 		</script>
 		<!--//script for portfolio-->
 				<!-- Calendar -->
-				<link rel="stylesheet" href="../gudang/home/css/jquery-ui.css" />
-				<script src="../gudang/home/js/jquery-ui.js"></script>
+				<link rel="stylesheet" href="<?php echo base_url(); ?>gudang/home/css/jquery-ui.css" />
+				<script src="<?php echo base_url(); ?>gudang/home/js/jquery-ui.js"></script>
 				  <script>
 						  $(function() {
 							$( "#datepicker,#datepicker1,#datepicker2,#datepicker3" ).datepicker();
